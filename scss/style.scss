@@ -1,6 +1,35 @@
 $primary: #feb30e;
 $secondary: #800080;
 
+#home-section {
+  background: url(../img/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  
+
+  // &.dark-overlay{
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   min-height: 700px;
+  //   background rgba(0, 0, 0, 0.9);
+  // }
+}
+
+.subscribe:hover {
+  background: $secondary;
+  color: #ffffff;
+  border: 1px solid $secondary;
+}
+
+.home-inner {
+  padding-top: 150px;
+}
+
 
 @media (max-width: 768px) {
   .mb-resp {
@@ -8,13 +37,14 @@ $secondary: #800080;
   }
 }
 
-// i .fas {
-//   background: #800080;
-//   color: #fff;
-//   padding: 5px;
-//   border-radius: 5px;
-// }
+.fas {
+  background: $secondary;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
 
-// #author {
-//   max-width: 300px;
-// }
+#author {
+  max-width: 80%;
+}
+
